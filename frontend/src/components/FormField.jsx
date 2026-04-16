@@ -76,17 +76,14 @@ export const DateField = ({ label, required, placeholder = "Select", name, value
       {label}
       {required && <span className="required-star">*</span>}
     </label>
-    <div className="relative">
-      <input
-        type="date"
-        name={name}
-        placeholder={placeholder}
-        value={value}
-        onChange={onChange}
-        className={`form-input pr-10 ${error ? "border-destructive" : ""}`}
-      />
-      <Calendar className="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground pointer-events-none" />
-    </div>
+    <input
+      type="date"
+      name={name}
+      placeholder={placeholder}
+      value={value}
+      onChange={onChange}
+      className={`form-input ${error ? "border-destructive" : ""}`}
+    />
     <ErrorMessage message={error} />
   </div>
 );
