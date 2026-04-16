@@ -39,15 +39,3 @@ npm run seed
 npm run dev
 ```
 
-## API Endpoints
-
-- `GET /health`
-- `POST /api/users`
-- `GET /api/users`
-- `GET /api/users/:id`
-- `PUT /api/users/:id`
-- `DELETE /api/users/:id`
-
-## Notes
-
-This backend is structured for production use with clean layering and environment-based configuration.
