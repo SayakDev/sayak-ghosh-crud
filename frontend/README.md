@@ -6,7 +6,7 @@
 npm install
 ```
 
-2. Create `.env` from `.env.example` and update database credentials.
+2. Create `.env` from `.env.example` 
 
 5. Start react app:
 
